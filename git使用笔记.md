@@ -34,13 +34,17 @@ git init
 ## 2.添加所有文件到仓库
 
 ```
-git add .
+# 此命令会把所有更改的文件全部暂存起来。
+git add . 
+
+# 如果要单个来，只需要 . 替换成对应的文件名即可。
+git add 文件名
 ```
 
 ## 3.把文件提交到本地仓库
 
 ```
-git commit -m"注释内容"
+git commit -m"注释内容" （注释必须写）
 ```
 
 ## 4.关联GitHub仓库
@@ -55,9 +59,43 @@ git commit -m"注释内容"
 git remote add origin 仓库地址
 ```
 
-### 上传本地代码
+# 三.上传本地代码
 
 ```
 git push -u origin master
+```
+
+# 四.克隆远程仓库
+
+```
+git clone 远程仓库地址
+```
+
+# 五.其他指令
+
+## 查看本地仓库
+
+```
+git ls-files
+```
+
+## 显示所有本地分支（master，uesr）
+
+```
+git branch
+```
+
+## 删除文件（都可以删，不知道区别）
+
+### 删除Windows目录下的文件
+
+```
+rm -rf 文件名
+```
+
+### 从Git中删除文件
+
+```
+git rm  文件名
 ```
 
