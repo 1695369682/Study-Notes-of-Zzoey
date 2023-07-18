@@ -63,6 +63,8 @@ git remote add origin 仓库地址
 
 ```
 git push -u origin master
+一般情况以下代码即可提交
+git push
 ```
 
 # 四.克隆远程仓库
@@ -97,5 +99,11 @@ rm -rf 文件名
 
 ```
 git rm  文件名
+```
+
+### 查看所有远程库
+
+```
+git remote -v
 ```
 
