@@ -107,3 +107,21 @@ git rm  文件名
 git remote -v
 ```
 
+### 拒绝提交包含混合换行符的文件
+
+```
+git config --global core.safecrlf true   
+```
+
+### 允许提交包含混合换行符的文件
+
+```powershell
+git config --global core.safecrlf false   
+```
+
+### 提交包含混合换行符的文件时给出警告
+
+```powershell
+git config --global core.safecrlf warn
+```
+
