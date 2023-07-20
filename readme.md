@@ -13,3 +13,5 @@
 # typescript_贪吃蛇
 
 基于ts的贪吃蛇小游戏
+
+#启动项目 npm run start
