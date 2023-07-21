@@ -2,8 +2,8 @@
 <!DOCTYPE mapper
         PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
         "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
-<mapper namespace="cn.wolfcode.mapper.foodMapper">
-    <select id="addFood" resultType="food">
-        select * from food
+<mapper namespace="cn.wolfcode.mapper.orderTypeMapper">
+    <select id="listAll" resultType="orderType">
+        select * from orderType
     </select>
 </mapper>
