@@ -125,3 +125,25 @@ git config --global core.safecrlf false
 git config --global core.safecrlf warn
 ```
 
+### 删除github上的文件
+
+##### 1.删除本地缓存区文件
+
+```
+git rm -r --cached 文件名
+```
+
+##### 2.提交删除
+
+```
+git commit -m"注释"
+```
+
+
+
+##### 3.推送到GitHub
+
+```
+git push
+```
+

@@ -14,16 +14,19 @@ import java.util.List;
 class ElmDemoApplicationTests {
 //在spring容器中取出
 	@Autowired
-	private orderTypeMapper orderTypeMapper;
+	private orderTypeMapper a;
 	@Autowired
 	private foodMapper foodMapper;
 
 	@Test
 	void contextLoads() {
-		List<orderType> list=orderTypeMapper.listAll();
-		for (orderType o:list){
-			System.out.println(o);
-		}
+//		List<orderType> list=orderTypeMapper.listAll();
+//		for (orderType o:list){
+//			System.out.println(o);
+//		}
+//		 a.insert();
+		 a.del();
+//		a.update();
 
 		List<food> list2= foodMapper.addFood();
 		for (food x:list2){

@@ -6,4 +6,13 @@
     <select id="listAll" resultType="orderType">
         select * from orderType
     </select>
+    <insert id="insert">
+        insert into ordertype values (12,"123","123")
+    </insert>
+    <delete id="del">
+        delete from ordertype where orderTypeId=12
+    </delete>
+    <update id="update">
+        update ordertype set orderTypeName = "changesuccess222" where orderTypeId=11
+    </update>
 </mapper>
